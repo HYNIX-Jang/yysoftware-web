@@ -23,14 +23,21 @@ body {
     margin: 0 auto;
     /*전체 가운데 정렬*/
     width: 1420px;
+    /*비율*/
+
 }
 
+/*Header, Menu Bar*/
 #menu {
     /*텍스트 가운데 정렬*/
     text-align: center;
     background-color: rgba(21, 101, 192, 0.8);
     height: 60px;
     width: 100%;
+}
+
+#menu > .in {
+    padding: 0;
 }
 
 #menu a {
@@ -52,25 +59,27 @@ body {
     width: 16.6666666667%;
 }
 
+/*INTRO*/
 #intro {
-    background-image: url("../img/software2.jpg");
+    background-image: url("../img/software.jpg");
     background-size: cover;
     height: 600px;
 }
 
-#intro .in {
+#intro > .in {
     padding: 70px 50px;
 }
 
-.information, .edu {
+.information, .goal, .edu {
     margin-bottom: 50px;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
 .post {
     font-family: 'Jeju Gothic', serif;
     color: white;
+    font-size: 20px;
 }
 
 .title {
@@ -78,6 +87,24 @@ body {
     font-family: 'BM HANNA 11yrs old OTF', serif;
     font-weight: 100;
     color: white;
+}
+
+/*JOB*/
+#job {
+    height: 300px;
+}
+
+/*Footer*/
+footer {
+    padding:35px;
+    background-color: #fd8c73;
+    text-align: center;
+}
+
+.facebook{
+    background-image: url("../img/facebook-logo.png");
+    width: 32px;
+    height:32px;
 }
 
 
