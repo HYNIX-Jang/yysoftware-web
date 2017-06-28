@@ -1,4 +1,4 @@
-/*FONT IMPORT*/
+/*fONT IMPORT*/
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
@@ -15,7 +15,7 @@
 }
 
 body {
-    height: 1000000px;
+    /*height: 1000000px;*/
 
 }
 
@@ -63,7 +63,7 @@ body {
 #intro {
     background-image: url("../img/software.jpg");
     background-size: cover;
-    height: 600px;
+    width: 100%;
 }
 
 #intro > .in {
@@ -84,28 +84,30 @@ body {
 
 .title {
     font-size: 50px;
-    font-family: 'BM HANNA 11yrs old OTF', serif;
+    font-family: 'BM HANNA 11yrs old OTf', serif;
     font-weight: 100;
     color: white;
 }
 
 /*JOB*/
 #job {
-    height: 300px;
+    height: 600px;
+    background-image: url("../img/job1.jpeg");
+    background-size: cover;
+    width: 100%;
 }
 
-/*Footer*/
+#job > .in {
+    padding: 70px 50px;
+}
+
+/*footer*/
 footer {
-    padding:35px;
+    box-sizing: border-box;
+    padding-top: 30px;
     background-color: #fd8c73;
     text-align: center;
+    height: 100px;
 }
-
-.facebook{
-    background-image: url("../img/facebook-logo.png");
-    width: 32px;
-    height:32px;
-}
-
 
 
