@@ -1,7 +1,7 @@
 /*fONT IMPORT*/
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /*-----------------------------------------------------------------------*/
 
@@ -15,7 +15,6 @@
 
 body {
     /*height: 1000000px;*/
-
 }
 
 .in {
@@ -25,7 +24,6 @@ body {
     /*비율*/
     padding: 110px 70px;
     /*컨텐츠 가운데*/
-
 }
 
 .sizeHeight {
@@ -34,6 +32,7 @@ body {
 }
 
 /*Header, Menu Bar*/
+
 #menu {
     /*텍스트 가운데 정렬*/
     text-align: center;
@@ -67,6 +66,7 @@ body {
 }
 
 /*INTRO*/
+
 #intro {
     background-image: url("../img/software1.jpg");
     background-size: cover;
@@ -78,7 +78,9 @@ body {
     padding: 130px 70px;
 }
 
-.information, .goal, .edu {
+.information,
+.goal,
+.edu {
     margin-bottom: 50px;
     margin-top: 30px;
 }
@@ -87,7 +89,8 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     color: white;
     font-size: 20px;
-    line-height: 40px; /*간격*/
+    line-height: 40px;
+    /*간격*/
     font-weight: 300;
 }
 
@@ -100,6 +103,7 @@ body {
 }
 
 /*JOB*/
+
 #job {
     background-image: url("../img/job01.jpg");
     background-size: cover;
@@ -114,12 +118,15 @@ body {
     width: 350px;
 }
 
-#job .work, .university, .prize {
+#job .work,
+.university,
+.prize {
     margin-bottom: 50px;
     margin-top: 30px;
 }
 
 /*도제학교*/
+
 #school {
     background-image: url("../img/check.jpg");
     background-size: cover;
@@ -134,16 +141,17 @@ body {
 }
 
 /*MAP*/
+
 #map {
     background-color: #79e5cb;
 }
 
 #map > .in {
     padding: 0;
-
 }
 
 /*CONTACT*/
+
 #contact {
     background-image: url("../img/contact.png");
     background-size: cover;
@@ -175,7 +183,6 @@ body {
     text-align: center;
     font-weight: 300;
     margin-bottom: 10px
-
 }
 
 .social {
@@ -206,6 +213,7 @@ body {
 }
 
 /*footer*/
+
 footer {
     box-sizing: border-box;
     padding-top: 30px;
@@ -217,5 +225,3 @@ footer {
 footer .in {
     padding: 0;
 }
-
-
