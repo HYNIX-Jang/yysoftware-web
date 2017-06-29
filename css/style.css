@@ -11,7 +11,6 @@
     box-sizing: border-box;
     height: auto;
     font-family: "Nanum Gothic", serif;
-    width: 100%;
 }
 
 body {
@@ -22,9 +21,9 @@ body {
 .in {
     margin: 0 auto;
     /*전체 가운데 정렬*/
-    width: 1420px;
+    width: 1400px;
     /*비율*/
-    padding: 130px 70px;
+    padding: 110px 70px;
     /*컨텐츠 가운데*/
 
 }
@@ -54,6 +53,7 @@ body {
     width: 16.6666666667%;
     color: white;
     height: 60px;
+    transition: 0.5s;
 }
 
 #menu a:hover {
@@ -88,6 +88,7 @@ body {
     color: white;
     font-size: 20px;
     line-height: 40px; /*간격*/
+    font-weight: 300;
 }
 
 .title {
@@ -113,10 +114,97 @@ body {
     width: 350px;
 }
 
+#job .work, .university, .prize {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+/*도제학교*/
+#school {
+    background-image: url("../img/check.jpg");
+    background-size: cover;
+}
+
+#school .post {
+    font-size: 26px;
+}
+
+#school .title {
+    margin-top: 50px;
+}
+
 /*MAP*/
-.map > iframe {
+#map {
+    background-color: #79e5cb;
+}
+
+#map > .in {
+    padding: 0;
 
 }
+
+/*CONTACT*/
+#contact {
+    background-image: url("../img/contact.png");
+    background-size: cover;
+}
+
+#contact .in {
+    padding-top: 50px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 87px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box > img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto 40px;
+}
+
+.box > h1 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10px
+
+}
+
+.social {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.social > a:last-child{
+    font-size: 55px;
+}
+
+.social a:link {
+    color: black;
+}
+
+.social a:visited {
+    color: black;
+}
+
+.social a:hover {
+    color: white;
+}
+
+.social a {
+ padding: 3px 15px;
+}
+
 
 /*footer*/
 footer {
@@ -131,7 +219,4 @@ footer .in {
     padding: 0;
 }
 
-.work, .university, .prize {
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
+
