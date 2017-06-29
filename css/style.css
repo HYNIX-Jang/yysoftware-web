@@ -181,7 +181,6 @@ body {
 .social {
     font-size: 50px;
     text-decoration: none;
-    color: black;
     text-align: center;
 }
 
@@ -189,20 +188,9 @@ body {
     font-size: 55px;
 }
 
-.social a:link {
-    color: black;
-}
-
-.social a:visited {
-    color: black;
-}
-
-.social a:hover {
-    color: white;
-}
-
 .social a {
  padding: 3px 15px;
+    color: white;
 }
 
 
