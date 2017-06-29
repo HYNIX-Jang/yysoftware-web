@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     height: auto;
-    font-family: "Nanum Gothic", serif;
+    font-family: "NanumGothic", serif;
 }
 
 body {
@@ -186,6 +186,18 @@ body {
 
 .social > a:last-child{
     font-size: 55px;
+}
+
+.social a:link {
+    color: black;
+}
+
+.social a:visited {
+    color: black;
+}
+
+.social a:hover {
+    color: white;
 }
 
 .social a {
